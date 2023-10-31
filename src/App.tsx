@@ -31,7 +31,6 @@ function App() {
         setIsOpenOptions(true)
         setIsLoading(false);
       }).catch(()=>{
-        console.log("err");
         setResult([]);
         setIsLoading(false);
         setIsOpenOptions(false)
